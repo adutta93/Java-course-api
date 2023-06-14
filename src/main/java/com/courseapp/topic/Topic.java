@@ -8,7 +8,7 @@ public class Topic {
 
 
     public Topic() {}
-    
+
     public Topic(String id, String name, String description) {
         super();
         this.id = id;
@@ -21,7 +21,7 @@ public class Topic {
     public String getName() {
         return name;
     }
-    public String getDesc() {
+    public String getDescription() {
         return description;
     }
 
@@ -31,7 +31,7 @@ public class Topic {
     public void setName(String name) {
         this.name = name;
     }
-    public void setDesc(String description) {
+    public void setDescription(String description) {
         this.description  = description ;
     }
 }
